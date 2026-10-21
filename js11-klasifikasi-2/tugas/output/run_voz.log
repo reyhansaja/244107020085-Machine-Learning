@@ -1,0 +1,40 @@
+[data] voice.csv shape=(3168, 21), kolom target='label'
+[data] distribusi label: {'male': 1584, 'female': 1584}
+
+[split 70:30] train=2217 test=951
+  kernel=linear acc_train=0.9720 acc_test=0.9790 f1=0.9791
+  kernel=poly   acc_train=0.9666 acc_test=0.9600 f1=0.9611
+  kernel=rbf    acc_train=0.9937 acc_test=0.9821 f1=0.9821
+
+[split 80:20] train=2534 test=634
+  kernel=linear acc_train=0.9767 acc_test=0.9748 f1=0.9750
+  kernel=poly   acc_train=0.9680 acc_test=0.9558 f1=0.9573
+  kernel=rbf    acc_train=0.9941 acc_test=0.9890 f1=0.9889
+
+=== TABEL AKURASI TEST (baris=kernel, kolom=split) ===
+split    70:30   80:20
+kernel                
+linear  0.9790  0.9748
+poly    0.9600  0.9558
+rbf     0.9821  0.9890
+
+=== TABEL AKURASI TRAIN ===
+split    70:30   80:20
+kernel                
+linear  0.9720  0.9767
+poly    0.9666  0.9680
+rbf     0.9937  0.9941
+
+[terbaik] split=80:20, kernel=rbf, acc_test=0.9890
+
+=== classification_report model terbaik ===
+              precision    recall  f1-score   support
+
+      female     0.9844    0.9937    0.9890       317
+        male     0.9936    0.9842    0.9889       317
+
+    accuracy                         0.9890       634
+   macro avg     0.9890    0.9890    0.9890       634
+weighted avg     0.9890    0.9890    0.9890       634
+
+[selesai] tugas 1

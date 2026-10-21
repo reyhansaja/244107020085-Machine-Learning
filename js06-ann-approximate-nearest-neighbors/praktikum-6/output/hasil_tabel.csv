@@ -1,0 +1,9 @@
+metode,build_s,ms_per_query,recall@10
+Exact (sklearn brute),0.0,0.1101,1.0
+Annoy -> faiss IVF,0.153,0.0144,0.989
+HNSW -> faiss HNSW,0.858,0.0409,0.989
+FAISS IVF (nprobe=10),0.161,0.013,0.989
+Exact (sklearn brute) top5,,,"[0, 29684, 29734, 4959, 29713]"
+Annoy -> faiss IVF top5,,,"[0, 29684, 29734, 4959, 29713]"
+HNSW -> faiss HNSW top5,,,"[0, 29684, 29734, 4959, 29713]"
+FAISS IVF (nprobe=10) top5,,,"[0, 29684, 29734, 4959, 29713]"

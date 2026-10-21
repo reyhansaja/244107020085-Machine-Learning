@@ -1,0 +1,12 @@
+=== Ringkasan 10000 vektor 128D, k=10 (detik) ===
+metode                        build    query  recall
+Exact NN (sklearn brute)     0.0000   1.6572   1.000
+Annoy -> faiss IVF           0.4146   0.3562   0.414
+HNSW -> faiss HNSW           2.4321   2.5751   0.986
+FAISS IVF                    0.2976   0.3908   0.414
+
+Speedup query vs exact: IVF 4.7x, HNSW 0.6x
+Top-5 index query pertama: exact [   0 9539 1112 4089 6177], IVF [   0 9539 1112 6177 9516], HNSW [   0 9539 1112 4089 6177]
+
+Mesin: Windows 10, CPU 8 logical core, Python 3.10.6, faiss 1.15.1
+TUGAS EXIT=0

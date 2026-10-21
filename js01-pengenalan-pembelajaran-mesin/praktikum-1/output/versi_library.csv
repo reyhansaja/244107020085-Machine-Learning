@@ -1,0 +1,11 @@
+paket,versi,status,kegunaan
+numpy,2.2.6,OK,komputasi array/matriks
+pandas,2.3.3,OK,tabel data (DataFrame)
+matplotlib,3.10.9,OK,visualisasi
+seaborn,0.13.2,OK,visualisasi statistik
+scipy,1.15.3,OK,komputasi ilmiah
+sklearn,1.7.2,OK,algoritma pembelajaran mesin
+statsmodels,0.15.0,OK,statistika inferensial
+skimage,0.25.2,OK,pengolahan citra
+cv2,5.0.0,OK,computer vision (OpenCV)
+nltk,3.10.3,OK,pengolahan bahasa alami

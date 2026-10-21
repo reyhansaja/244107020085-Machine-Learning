@@ -1,0 +1,11 @@
+[data] X=(100, 2) kelas=[50 50]
+        C | akurasi latih |  #SV |  margin 2/|w|
+----------------------------------------------------------
+     0.01 |        0.9900 |   52 |     3.5802
+      0.1 |        1.0000 |   20 |     2.0380
+      1.0 |        1.0000 |    9 |     0.8740
+     10.0 |        1.0000 |    4 |     0.4702
+    100.0 |        1.0000 |    3 |     0.4030
+  10000.0 |        1.0000 |    3 |     0.4030
+[catatan] C kecil -> margin lebar & banyak SV; C besar -> margin sempit, cenderung overfit. C optimal dicari lewat cross-validation (lihat praktikum 4).
+[selesai] praktikum 3

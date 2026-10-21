@@ -1,0 +1,5 @@
+library,modul_python,versi,status,kegunaan
+PyPREP,pyprep,-,TIDAK ADA (ModuleNotFoundError),"Preprocessing EEG otomatis (implementasi PREP): deteksi kanal buruk, filter line-noise, interpolasi kanal rusak, rujukan (reference). Dipakai sebelum analisis/klasifikasi sinyal EEG."
+SciPy,scipy,1.15.3,TERPASANG,"Komputasi ilmiah: aljabar linear, optimasi, interpolasi, statistika (scipy.stats), pengolahan sinyal (scipy.signal), integrasi. Fondasi banyak library ML."
+wandb,wandb,-,TIDAK ADA (ModuleNotFoundError),"Weights & Biases: pencatatan eksperimen (metrik per epoch, kurva, artefak model), pembandingan run, dan pelaporan hasil secara daring."
+pyECG,pyecg,-,TIDAK ADA (ModuleNotFoundError),"Pengolahan sinyal EKG: pembacaan format rekaman (WFDB/ISHNE Holter), deteksi gelombang (P-QRS-T), ekstraksi fitur denyut."

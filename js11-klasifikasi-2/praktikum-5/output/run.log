@@ -1,0 +1,42 @@
+[load] train=240 test=160 gambar
+[load] contoh shape asli: (458, 800, 3), label=day
+[pra] contoh setelah standarisasi: (600, 1100, 3) (h, w, c)
+[fitur] train (240, 2), test (160, 2)
+[fitur] rata-rata V: day=137.44 night=69.28
+[threshold=120] akurasi train = 0.8417
+[threshold=120] akurasi test  = 0.8688 (salah 21/160)
+[threshold] sapuan nilai threshold:
+  thr=80   acc_train=0.7333 acc_test=0.7875
+  thr=100  acc_train=0.9042 acc_test=0.9250
+  thr=110  acc_train=0.8708 acc_test=0.8938
+  thr=120  acc_train=0.8417 acc_test=0.8688
+  thr=130  acc_train=0.7500 acc_test=0.8063
+  thr=140  acc_train=0.6875 acc_test=0.7438
+  thr=160  acc_train=0.5875 acc_test=0.5687
+[svm rbf] akurasi train = 0.8625
+[svm rbf] akurasi test  = 0.9000
+[svm rbf] classification_report (test):
+              precision    recall  f1-score   support
+
+       night     0.8810    0.9250    0.9024        80
+         day     0.9211    0.8750    0.8974        80
+
+    accuracy                         0.9000       160
+   macro avg     0.9010    0.9000    0.8999       160
+weighted avg     0.9010    0.9000    0.8999       160
+
+[svm rbf] confusion matrix (test):
+ [[74  6]
+ [10 70]]
+[tuning] gamma x C (akurasi test):
+  gamma=0.001  C=1    acc_test=0.9000
+  gamma=0.001  C=10   acc_test=0.9125
+  gamma=0.001  C=100  acc_test=0.9250
+  gamma=0.01   C=1    acc_test=0.9250
+  gamma=0.01   C=10   acc_test=0.9250
+  gamma=0.01   C=100  acc_test=0.9250
+  gamma=0.1    C=1    acc_test=0.9187
+  gamma=0.1    C=10   acc_test=0.9187
+  gamma=0.1    C=100  acc_test=0.9250
+[tuning] terbaik: gamma=0.001, C=100, acc_test=0.9250
+[selesai] praktikum 5, fitur disimpan ke output/fitur_{train,test}.csv

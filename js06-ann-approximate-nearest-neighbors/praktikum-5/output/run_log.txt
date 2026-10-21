@@ -1,0 +1,14 @@
+IVF-Flat nprobe=  1 | recall=0.055 |    20010 QPS
+IVF-Flat nprobe=  5 | recall=0.194 |     4209 QPS
+IVF-Flat nprobe= 10 | recall=0.317 |     2658 QPS
+IVF-Flat nprobe= 20 | recall=0.502 |     1333 QPS
+IVF-PQ  nprobe=  1 | recall=0.044 |    33005 QPS
+IVF-PQ  nprobe=  5 | recall=0.102 |    11850 QPS
+IVF-PQ  nprobe= 10 | recall=0.133 |     7291 QPS
+IVF-PQ  nprobe= 20 | recall=0.167 |     3620 QPS
+HNSW    efSearch=  50 | recall=0.305 |     3853 QPS
+HNSW    efSearch= 100 | recall=0.450 |     4047 QPS
+HNSW    efSearch= 200 | recall=0.614 |     2074 QPS
+HNSW    efSearch= 400 | recall=0.766 |     1123 QPS
+Exact Flat          | recall=1.000 |      521 QPS
+P5 EXIT=0

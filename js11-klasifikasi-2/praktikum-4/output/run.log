@@ -1,0 +1,46 @@
+[data] n_samples=1348 image_shape=(62, 47) n_features=2914
+[data] jumlah kelas=8: ['Ariel Sharon', 'Colin Powell', 'Donald Rumsfeld', 'George W Bush', 'Gerhard Schroeder', 'Hugo Chavez', 'Junichiro Koizumi', 'Tony Blair']
+[data] jumlah citra per orang: {'Ariel Sharon': 77, 'Colin Powell': 236, 'Donald Rumsfeld': 121, 'George W Bush': 530, 'Gerhard Schroeder': 109, 'Hugo Chavez': 71, 'Junichiro Koizumi': 60, 'Tony Blair': 144}
+[data] waktu muat = 0.2s (cache lokal, unduh hanya run pertama)
+[split] train=(1011, 2914) test=(337, 2914)
+[grid] 16 kombinasi x 3-fold selesai dalam 18.1s
+[grid] best_params = {'svc__C': 5, 'svc__gamma': 0.001}
+[grid] best_score (cv akurasi) = 0.8170
+[eval] akurasi test = 0.8576
+[eval] prediksi salah = 48/337 (14.2%)
+
+=== classification_report ===
+                   precision    recall  f1-score   support
+
+     Ariel Sharon     0.7222    0.6842    0.7027        19
+     Colin Powell     0.8060    0.9153    0.8571        59
+  Donald Rumsfeld     0.8333    0.8333    0.8333        30
+    George W Bush     0.9231    0.9023    0.9125       133
+Gerhard Schroeder     0.7576    0.9259    0.8333        27
+      Hugo Chavez     0.9091    0.5556    0.6897        18
+Junichiro Koizumi     0.8462    0.7333    0.7857        15
+       Tony Blair     0.8857    0.8611    0.8732        36
+
+         accuracy                         0.8576       337
+        macro avg     0.8354    0.8014    0.8110       337
+     weighted avg     0.8618    0.8576    0.8559       337
+
+=== confusion matrix (baris=true, kolom=prediksi) ===
+[[ 13   2   1   1   2   0   0   0]
+ [  2  54   0   2   0   0   0   1]
+ [  1   2  25   1   0   1   0   0]
+ [  2   6   1 120   1   0   2   1]
+ [  0   0   0   1  25   0   0   1]
+ [  0   2   0   2   4  10   0   0]
+ [  0   1   1   1   0   0  11   1]
+ [  0   0   2   2   1   0   0  31]]
+=== akurasi per kelas ===
+  Ariel Sharon           0.6842 (n=19)
+  Colin Powell           0.9153 (n=59)
+  Donald Rumsfeld        0.8333 (n=30)
+  George W Bush          0.9023 (n=133)
+  Gerhard Schroeder      0.9259 (n=27)
+  Hugo Chavez            0.5556 (n=18)
+  Junichiro Koizumi      0.7333 (n=15)
+  Tony Blair             0.8611 (n=36)
+[selesai] praktikum 4

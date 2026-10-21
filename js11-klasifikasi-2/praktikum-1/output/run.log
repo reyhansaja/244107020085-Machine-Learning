@@ -1,0 +1,10 @@
+[data] X=(50, 2) y=(50,) kelas=[25 25]
+[margin] 3 kandidat garis (m,b,d) digambar
+[svm] akurasi latih = 1.0000
+[svm] jumlah support vector = 3 dari 50 data
+[svm] support_vectors_ =
+ [[0.443599 3.115309]
+ [2.338123 3.431168]
+ [2.061568 1.969186]]
+[N] SV N=60: 3, N=120: 3 (garis keputusan praktis sama)
+[selesai] praktikum 1
