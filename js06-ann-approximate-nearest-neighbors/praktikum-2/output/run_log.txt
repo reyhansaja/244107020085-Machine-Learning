@@ -1,0 +1,10 @@
+L2 N=   1000 d=2 | flat [258  17 971] dist [0.     0.0001 0.001 ] | ivfpq [258  17 971] dist [0.     0.0001 0.0011] | flat 0.381 ms  ivfpq 0.050 ms (build 346 ms) | recall=0.907
+L2 N=   1000 d=5 | flat [812  34 550] dist [0.0314 0.0397 0.055 ] | ivfpq [812  34 550] dist [0.0309 0.0397 0.0549] | flat 0.252 ms  ivfpq 0.074 ms (build 1620 ms) | recall=0.747
+L2 N=1000000 d=2 | flat [600900 695075 587490] dist [0. 0. 0.] | ivfpq [600900 695075 587490] dist [0. 0. 0.] | flat 5.716 ms  ivfpq 0.129 ms (build 13701 ms) | recall=0.807
+L2 N=1000000 d=5 | flat [ 85158 586716 687018] dist [0.0022 0.0026 0.0029] | ivfpq [ 85158 586716 687018] dist [0.0023 0.0024 0.0029] | flat 7.619 ms  ivfpq 0.143 ms (build 28507 ms) | recall=0.840
+IP N=   1000 d=2 | flat [604 147 545] dist [1.     0.9999 0.9999] | ivfpq [604 400 147] dist [1.0012 1.0004 1.0002] | flat 0.150 ms  ivfpq 0.061 ms (build 689 ms) | recall=0.380
+IP N=   1000 d=5 | flat [132 422 951] dist [0.9574 0.9486 0.918 ] | ivfpq [132 422 951] dist [0.9609 0.942  0.9176] | flat 0.219 ms  ivfpq 0.136 ms (build 1867 ms) | recall=0.720
+IP N=1000000 d=2 | flat [310459 233529 178822] dist [1. 1. 1.] | ivfpq [829399 255470 182567] dist [1.0001 1.0001 1.0001] | flat 4.167 ms  ivfpq 0.407 ms (build 15598 ms) | recall=0.007
+IP N=1000000 d=5 | flat [709164 675568 192964] dist [0.9995 0.9984 0.9979] | ivfpq [192964 954371 119185] dist [0.9982 0.9978 0.9969] | flat 5.245 ms  ivfpq 0.290 ms (build 37001 ms) | recall=0.640
+
+Catatan: IVFPQ memakai nprobe=1 dan 8 bit/subvektor -> jarak bersifat aproksimasi.

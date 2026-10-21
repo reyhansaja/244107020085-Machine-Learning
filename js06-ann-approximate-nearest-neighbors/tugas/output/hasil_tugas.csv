@@ -1,0 +1,5 @@
+metode,build_s,query_s,recall@10
+Exact NN (sklearn brute),0.0,0.5571,1.0
+Annoy -> faiss IVF,0.0953,0.1076,0.414
+HNSW -> faiss HNSW,0.8661,1.206,0.986
+FAISS IVF,0.106,0.1542,0.414

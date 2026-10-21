@@ -1,0 +1,9 @@
+[data] make_circles X=(100, 2) kelas=[50 50]
+[linear] akurasi latih = 0.6800 (gagal, batas berupa garis lurus)
+[radial] proyeksi 3D disimpan (plot interaktif ipywidgets diganti 1 sudut statis)
+[rbf] akurasi latih = 1.0000, support vector = 10
+[rbf] gamma=0.1   akurasi latih = 1.0000 SV=6
+[rbf] gamma=1     akurasi latih = 1.0000 SV=9
+[rbf] gamma=10    akurasi latih = 1.0000 SV=40
+[rbf] gamma=100   akurasi latih = 1.0000 SV=74
+[selesai] praktikum 2

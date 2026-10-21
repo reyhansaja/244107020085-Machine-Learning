@@ -1,0 +1,13 @@
+
+=== L2 | N=1,000,000 d=5 k=10 ===
+faiss_flat       build   0.012 s | query   9.445 ms | recall@10=1.000 | top5 [ 85158 586716 687018   8630  91763]
+annoy_proxy_ivf  build   1.484 s | query   0.847 ms | recall@10=1.000 | top5 [ 85158 586716 687018   8630  91763]
+hnsw_faiss       build 110.464 s | query   0.274 ms | recall@10=1.000 | top5 [ 85158 586716 687018   8630  91763]
+
+=== IP | N=1,000,000 d=5 k=10 ===
+faiss_flat       build   0.038 s | query   7.090 ms | recall@10=1.000 | top5 [901365 779224 732589 766000 586977]
+annoy_proxy_ivf  build   1.644 s | query   0.669 ms | recall@10=1.000 | top5 [901365 779224 732589 766000 586977]
+hnsw_faiss       build 107.557 s | query   0.094 ms | recall@10=1.000 | top5 [901365 779224 732589 766000 586977]
+recall L2: faiss_flat=1.000, annoy_proxy_ivf=1.000, hnsw_faiss=1.000
+recall IP: faiss_flat=1.000, annoy_proxy_ivf=1.000, hnsw_faiss=1.000
+P4 EXIT=0
