@@ -1,0 +1,24 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Log & cache hasil eksekusi
+*.log
+.cache/
+.pytest_cache/
+
+# Model & artefak deployment TIDAK diignore (ukurannya kecil, dibutuhkan js15)
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

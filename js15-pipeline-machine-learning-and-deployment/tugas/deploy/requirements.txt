@@ -1,0 +1,6 @@
+flask
+tensorflow-cpu
+numpy
+scikit-learn
+opencv-python-headless
+gunicorn

@@ -1,0 +1,11 @@
+metrik,nilai
+n_train,192
+n_val,48
+n_test,160
+dimensi_hog,34596
+test_accuracy,0.95
+test_loss,0.710754
+precision_day,0.9737
+recall_day,0.925
+f1_day,0.9487
+seed,42
