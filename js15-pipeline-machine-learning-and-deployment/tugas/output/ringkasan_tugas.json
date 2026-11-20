@@ -1,0 +1,11 @@
+{
+  "dataset": "sklearn digits 8x8 (1797 citra)",
+  "fitur": 64,
+  "arsitektur": "Dense128-relu -> Dense64-relu -> Dense10-softmax",
+  "epoch": 20,
+  "akurasi_test": 0.9806,
+  "akurasi_endpoint_flask": 1.0,
+  "jumlah_gambar_uji_endpoint": 50,
+  "docker_daemon_aktif": false,
+  "seed": 42
+}

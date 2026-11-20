@@ -1,0 +1,11 @@
+file,label_asli,prediksi_endpoint,prob_day,benar
+20151101_152050.jpg,day,Day (Siang),1.0,True
+20151101_152512.jpg,day,Day (Siang),1.0,True
+20151101_165048.jpg,day,Day (Siang),1.0,True
+20151101_222053.jpg,day,Day (Siang),0.999993,True
+20151101_225048.jpg,day,Day (Siang),0.999849,True
+20151101_072507.jpg,night,Night (Malam),0.0,True
+20151101_230938.jpg,night,Night (Malam),0.0,True
+20151101_231132.jpg,night,Night (Malam),0.0,True
+20151101_231455.jpg,night,Night (Malam),0.0,True
+20151101_232014.jpg,night,Night (Malam),0.0,True

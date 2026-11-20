@@ -1,0 +1,15 @@
+{
+  "app_py_bytes": 1993,
+  "requirements": [
+    "flask",
+    "tensorflow-cpu",
+    "numpy",
+    "scikit-learn",
+    "scikit-image",
+    "opencv-python-headless",
+    "gunicorn"
+  ],
+  "dockerfile_baris": 27,
+  "akurasi_uji_10_gambar": 1.0,
+  "docker_daemon_aktif": false
+}
